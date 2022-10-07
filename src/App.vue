@@ -1,21 +1,29 @@
 <template>
   <div id="app">
-    <nav></nav>
+    <NavCompRen></NavCompRen>
+    <router-view></router-view>
+    <!-- <ProfessorCompRen></ProfessorCompRen>
     <HelloWorld/>
+    <SobreCompRen></SobreCompRen> -->
 </div>
 </template>
 
 <script>
-import HelloWorld from './components/alunos/HelloWorld.vue'
-import Nav from './components/_nav/nav.vue'
+
+import NavCompRen from './components/_nav/NavCompRen.vue';
+// import HelloWorld from './components/alunos/HelloWorld.vue';
+// import SobreCompRen from './components/sobre/sobreCompRen.vue';
+// import ProfessorCompRen from './components/professores/ProfessorCompRen.vue'
 
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
-    Nav
-  }
+    NavCompRen,
+    // HelloWorld,
+    // SobreCompRen,
+    // ProfessorCompRen
+}
 }
 </script>
 

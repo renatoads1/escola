@@ -1,6 +1,6 @@
 <template>
   <div>
-      <MeuPrimeiroComponente texto="Renato" />
+      <MeuPrimeiroComponente texto="Alunos" />
       <input type="text" placeholder="Nome do Aluno" v-model="nome" />
       <input type="text" placeholder="sobrenome do Aluno" v-model="sobrenome" v-on:keyup.enter="addAluno()" />
     <hr>
